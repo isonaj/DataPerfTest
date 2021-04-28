@@ -28,6 +28,7 @@ namespace DataPerfTest
 
                 await LoadIndividualReport();
                 await LoadTeamReport();
+                await LoadSiteAssetReport();
             });
 
             task.Wait();
